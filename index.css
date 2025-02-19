@@ -1,0 +1,52 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg);
+    background-attachment: fixed;
+    background-repeat:repeat-x;
+    background-position: 0%;
+    background-size: cover;
+
+
+    
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: tomato;
+        color: black;
+    
+    }
+    
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+   
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    body{
+        background-color: yellow;
+        color:black;
+    
+    }
+    .container{
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1200px){
+    body{
+        background-color: brown;
+        color:black;
+    }
+    .container{
+        width: 100%;
+        height: fit-content;
+    }
+    
+}
+

@@ -1,5 +1,5 @@
-body{
-   
+body {
+
     display: flex;
     margin-left: 25%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,44 +10,46 @@ body{
     background-image: url(https://cdn.vectorstock.com/i/500p/53/14/ai-glowing-circuit-board-background-connected-vector-52865314.jpg);
     background-size: cover;
 }
-.container{
-    background-color:lightgrey;
+
+.container {
+    background-color: lightgrey;
     width: 300px;
     height: 200px;
     border-radius: 15px;
     text-align: center;
-    
+
 }
 
-.heading{
+.heading {
     text-align: center;
-    color:darkgoldenrod;
+    color: darkgoldenrod;
 }
-button{
-    background-color:darkviolet;
+
+button {
+    background-color: darkviolet;
     border: 0;
-    margin-top:5%;
-    padding: 1px;      
+    margin-top: 5%;
+    padding: 1px;
     width: 100px;
     height: 30px;
     border-radius: 5px;
 }
-.form-section{
+
+.form-section {
     margin: 5px;
     justify-content: center;
     display: flex;
-    
+
 }
+
 input {
-    width: 80px;
+    width: 100px;
     margin: 2px;
     margin-left: 10px;
 }
+
 button a {
-    text-decoration:none;
+    text-decoration: none;
     color: white;
     width: 100%;
-}    
-    
-
-
+}

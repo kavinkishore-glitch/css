@@ -40,7 +40,7 @@ input {
     padding: 7px;
     border: 1px solid grey;
     margin: 1px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 button {
@@ -59,4 +59,11 @@ button a {
     text-decoration: none;
     color: white;
     width: 100%;
+}
+.para1{
+    color: darkgoldenrod;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
 }

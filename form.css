@@ -14,7 +14,7 @@ body {
 .container {
     background-color: lightgrey;
     width: 300px;
-    height: 200px;
+    height: 230px;
     border-radius: 15px;
     text-align: center;
 
@@ -52,4 +52,11 @@ button a {
     text-decoration: none;
     color: white;
     width: 100%;
+}
+.para1{
+    color: darkgoldenrod;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
 }
